@@ -1,0 +1,1843 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+         <meta name=theme-color content="##1E90FF"/>
+        <meta name=robots content="index, follow">
+        <meta name=viewport content="width=device-width, initial-scale=1"/>
+        <meta http-equiv=Cache-control content=public>
+        <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
+        <title>Test Inteligencias - Multiples</title>
+        <meta name=title content="Test Inteligencias - Multiples"/>
+        <link href="css/styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/animation.css">
+        <script type="text/javascript" src="js/test.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+            <script>
+      function toggleCodes(on) {
+        var obj = document.getElementById('icons');
+      
+        if (on) {
+          obj.className += ' codesOn';
+        } else {
+          obj.className = obj.className.replace(' codesOn', '');
+        }
+      }
+      
+    </script>
+    </head>
+<body>
+    
+    <div class="menu">
+        <div id="unsxxLogo">
+            <img src="img/logo-unsxx.png">
+        </div>  
+        <div id="cabecera">
+            <h1>
+                TEST DE INTELIGENCIAS
+             <hr>MULTIPLES
+            </h1>
+        </div>   
+        <div id="inforLogo">
+            <img src="img/logo-infor.png">
+        </div>
+    </div>
+  
+<div class="pagina-1" id="inicio" >
+
+       <div style="text-align:center;background-color:white;color:black">
+        <div class=container-fluid>
+            <br/>
+            <div class="test-anun">
+                <br/>
+                <span>                  
+                    <b>¿Quieres saber qué tipo de inteligencia o inteligencias dominantes tienes?</b>    
+                </span>
+                <br/>
+                <br/>
+                <b> Averígualo con este sencillo test y así sabrás cuál es tu 
+                  forma de aprender y qué estudios pueden ser más interesantes para
+                   ti según tus capacidades.
+            <br/>
+            </div>
+
+            <br/>
+            <br/>
+
+   <section class="btn-container ">
+        <a class="btn-ghost round" onclick="muestra_test('test')" >Empiesa Test Ahora</a>
+    </section>
+
+        </div>
+    </div>
+</div>
+
+<div class="paginas" id="test" >
+    <form action="" class="formulario" id="form" >
+        <div id="title-form">
+        <h1>Llena Todas las Preguntas<h1 id="ob-test">*</h1></h1>
+        </div>
+        <p>Pregunta 1:</p>
+        <h2>¿Para mí los libros son importantes?</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p1" value="1" id="nunca1">
+            <label for="nunca1">Nunca</label>
+
+            <input type="radio" name="p1" value="2" id="casi-nunca1">
+            <label for="casi-nunca1">Casi Nunca</label>
+
+            <input type="radio" name="p1" value="3" id="a-veces1">
+            <label for="a-veces1">A Veces</label>
+
+            <input type="radio" name="p1" value="4" id="casi-siempre1">
+            <label for="casi-siempre1">Casi Siempre</label>
+
+            <input type="radio" name="p1" value="5" id="siempre1">
+            <label for="siempre1">Siempre</label>
+
+          </fieldset>          
+        </div>
+        <p>Pregunta 2:</p>
+        <h2>¿Puedo escuchar las palabras en mi cabeza antes de leerlas, decirlas o escribirlas?</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p2" value="1" id="nunca2">
+            <label for="nunca2">Nunca</label>
+
+            <input type="radio" name="p2" value="2" id="casi-nunca2">
+            <label for="casi-nunca2">Casi Nunca</label>
+
+            <input type="radio" name="p2" value="3" id="a-veces2">
+            <label for="a-veces2">A Veces</label>
+
+            <input type="radio" name="p2" value="4" id="casi-siempre2">
+            <label for="casi-siempre2">Casi Siempre</label>
+
+            <input type="radio" name="p2" value="5" id="siempre2">
+            <label for="siempre2">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 3:</p>
+        <h2>¿Puedo extraer más de una emisión radial o de un casete con textos grabados que de la televisión o las películas?</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p3" value="1" id="nunca3">
+            <label for="nunca3">Nunca</label>
+
+            <input type="radio" name="p3" value="2" id="casi-nunca3">
+            <label for="casi-nunca3">Casi Nunca</label>
+
+            <input type="radio" name="p3" value="3" id="a-veces3">
+            <label for="a-veces3">A Veces</label>
+
+            <input type="radio" name="p3" value="4" id="casi-siempre3">
+            <label for="casi-siempre3">Casi Siempre</label>
+
+            <input type="radio" name="p3" value="5" id="siempre3">
+            <label for="siempre3">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 4:</p>
+        <h2>¿Me gustan los juegos con palabras, como scrabble, Anagramas, o Santo y seña?</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p4" value="1"  id="nunca4">
+            <label for="nunca4">Nunca</label>
+
+            <input type="radio" name="p4" value="2" id="casi-nunca4">
+            <label for="casi-nunca4">Casi Nunca</label>
+
+            <input type="radio" name="p4"  value="3" id="a-veces4">
+            <label for="a-veces4">A Veces</label>
+
+            <input type="radio" name="p4" value="4" id="casi-siempre4">
+            <label for="casi-siempre4">Casi Siempre</label>
+
+            <input type="radio" name="p4" value="5" id="siempre4">
+            <label for="siempre4">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 5:</p>
+        <h2>¿Me agrada entretenerme o entretener a  otros con trabalenguas, rimas sin sentido o chistes verbales?</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p5" value="1" id="nunca5">
+            <label for="nunca5">Nunca</label>
+
+            <input type="radio" name="p5" value="2" id="casi-nunca5">
+            <label for="casi-nunca5">Casi Nunca</label>
+
+            <input type="radio" name="p5" value="3" id="a-veces5">
+            <label for="a-veces5">A Veces</label>
+
+            <input type="radio" name="p5" value="4" id="casi-siempre5">
+            <label for="casi-siempre5">Casi Siempre</label>
+
+            <input type="radio" name="p5" value="5" id="siempre5">
+            <label for="siempre5">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 6:</p>
+        <h2>¿Las otras personas muy a menudo tienen que detenerse y pedirme que explique el significado de las palabras que uso en mis textos escritos o en mi lenguaje hablado?</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p6" value="1" id="nunca6">
+            <label for="nunca6">Nunca</label>
+
+            <input type="radio" name="p6" value="2" id="casi-nunca6">
+            <label for="casi-nunca6">Casi Nunca</label>
+
+            <input type="radio" name="p6" value="3" id="a-veces6">
+            <label for="a-veces6">A Veces</label>
+
+            <input type="radio" name="p6" value="4" id="casi-siempre6">
+            <label for="casi-siempre6">Casi Siempre</label>
+
+            <input type="radio" name="p6" value="5" id="siempre6">
+            <label for="siempre6">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 7:</p>
+        <h2>¿Lengua, estudio sociales e historia fueron mucho más fáciles para mí en mis años escolares, que la matemática o las ciencias?</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p7" value="1" id="nunca7">
+            <label for="nunca7">Nunca</label>
+
+            <input type="radio" name="p7" value="2" id="casi-nunca7">
+            <label for="casi-nunca7">Casi Nunca</label>
+
+            <input type="radio" name="p7" value="3" id="a-veces7">
+            <label for="a-veces7">A Veces</label>
+
+            <input type="radio" name="p7" value="4" id="casi-siempre7">
+            <label for="casi-siempre7">Casi Siempre</label>
+
+            <input type="radio" name="p7"  value="5" id="siempre7">
+            <label for="siempre7">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 8:</p>
+        <h2>¿Cuando manejo por una autopista o viajo con alguien  presto mas atención a las palabras escritas en los carteles que al paisaje?</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p8" value="1" id="nunca8">
+            <label for="nunca8">Nunca</label>
+
+            <input type="radio" name="p8" value="2" id="casi-nunca8">
+            <label for="casi-nunca8">Casi Nunca</label>
+
+            <input type="radio" name="p8" value="3" id="a-veces8">
+            <label for="a-veces8">A Veces</label>
+
+            <input type="radio" name="p8" value="4" id="casi-siempre8">
+            <label for="casi-siempre8">Casi Siempre</label>
+
+            <input type="radio" name="p8" value="5" id="siempre8">
+            <label for="siempre8">Siempre</label>
+
+          </fieldset>  
+        </div>
+
+        <p>Pregunta 9:</p>
+        <h2>¿Mi conversación incluye referencias frecuentes a cosas que he leído u oído?</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p9" value="1" id="nunca9">
+            <label for="nunca9">Nunca</label>
+
+            <input type="radio" name="p9" value="2" id="casi-nunca9">
+            <label for="casi-nunca9">Casi Nunca</label>
+
+            <input type="radio" name="p9"  value="3"id="a-veces9">
+            <label for="a-veces9">A Veces</label>
+
+            <input type="radio" name="p9" value="4" id="casi-siempre9">
+            <label for="casi-siempre9">Casi Siempre</label>
+
+            <input type="radio" name="p9" value="5"id="siempre9">
+            <label for="siempre9">Siempre</label>
+
+          </fieldset>          
+        </div>
+        <p>Pregunta 10:</p>
+        <h2>¿Recientemente escribí algo de lo que me sentí particularmente orgulloso y que me ganó el reconocimiento de otros?</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p10" value="1" id="nunca10">
+            <label for="nunca10">Nunca</label>
+
+            <input type="radio" name="p10" value="2" id="casi-nunca10">
+            <label for="casi-nunca10">Casi Nunca</label>
+
+            <input type="radio" name="p10" value="3" id="a-veces10">
+            <label for="a-veces10">A Veces</label>
+
+            <input type="radio" name="p10" value="4" id="casi-siempre10">
+            <label for="casi-siempre10">Casi Siempre</label>
+
+            <input type="radio" name="p10" value="5" id="siempre10">
+            <label for="siempre10">Siempre</label>
+
+          </fieldset>  
+        </div>
+       <!-- ////////////////////////////////////////-->
+        <p>Pregunta 11:</p>
+        <h2>¿Puedo calcular números mentalmente con facilidad ?</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p11" value="1" id="nunca11">
+            <label for="nunca11">Nunca</label>
+
+            <input type="radio" name="p11" value="2" id="casi-nunca11">
+            <label for="casi-nunca11">Casi Nunca</label>
+
+            <input type="radio" name="p11" value="3" id="a-veces11">
+            <label for="a-veces11">A Veces</label>
+
+            <input type="radio" name="p11" value="4" id="casi-siempre11">
+            <label for="casi-siempre11">Casi Siempre</label>
+
+            <input type="radio" name="p11" value="5" id="siempre11">
+            <label for="siempre11">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 12:</p>
+        <h2>¿Las matemáticas y/o ciencias estaban entre mis materias favoritas en la escuela?</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p12" value="1" id="nunca12">
+            <label for="nunca12">Nunca</label>
+
+            <input type="radio" name="p12" value="2" id="casi-nunca12">
+            <label for="casi-nunca12">Casi Nunca</label>
+
+            <input type="radio" name="p12" value="3" id="a-veces12">
+            <label for="a-veces12">A Veces</label>
+
+            <input type="radio" name="p12" value="4" id="casi-siempre12">
+            <label for="casi-siempre12">Casi Siempre</label>
+
+            <input type="radio" name="p12" value="5" id="siempre12">
+            <label for="siempre12">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 13:</p>
+        <h2>¿Me gusta jugar juegos o resolver problemas que requieren pensamiento lógico?</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p13" value="1" id="nunca13">
+            <label for="nunca13">Nunca</label>
+
+            <input type="radio" name="p13" value="2" id="casi-nunca13">
+            <label for="casi-nunca13">Casi Nunca</label>
+
+            <input type="radio" name="p13" value="3" id="a-veces13">
+            <label for="a-veces13">A Veces</label>
+
+            <input type="radio" name="p13" value="4" id="casi-siempre13">
+            <label for="casi-siempre13">Casi Siempre</label>
+
+            <input type="radio" name="p13" value="5" id="siempre13">
+            <label for="siempre13">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 14:</p>
+        <h2>Me gusta armar experimentos de ¿qué pasaría si…?</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p14" value="1" id="nunca14">
+            <label for="nunca14">Nunca</label>
+
+            <input type="radio" name="p14" value="2" id="casi-nunca14">
+            <label for="casi-nunca14">Casi Nunca</label>
+
+            <input type="radio" name="p14" value="3" id="a-veces14">
+            <label for="a-veces14">A Veces</label>
+
+            <input type="radio" name="p14" value="4" id="casi-siempre14">
+            <label for="casi-siempre14">Casi Siempre</label>
+
+            <input type="radio" name="p14" value="5" id="siempre14">
+            <label for="siempre14">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 15:</p>
+        <h2>¿Mi mente busca los patrones, las regularidades o las secuencias lógicas en las cosas?</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p15" value="1" id="nunca15">
+            <label for="nunca15">Nunca</label>
+
+            <input type="radio" name="p15" value="2" id="casi-nunca15">
+            <label for="casi-nunca15">Casi Nunca</label>
+
+            <input type="radio" name="p15" value="3" id="a-veces15">
+            <label for="a-veces15">A Veces</label>
+
+            <input type="radio" name="p15" value="4" id="casi-siempre15">
+            <label for="casi-siempre15">Casi Siempre</label>
+
+            <input type="radio" name="p15" value="5" id="siempre15">
+            <label for="siempre15">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 16:</p>
+        <h2>¿Me interesan los nuevos desarrollos de las ciencias?</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p16" value="1" id="nunca16">
+            <label for="nunca16">Nunca</label>
+
+            <input type="radio" name="p16" value="2" id="casi-nunca16">
+            <label for="casi-nunca16">Casi Nunca</label>
+
+            <input type="radio" name="p16" value="3" id="a-veces16">
+            <label for="a-veces16">A Veces</label>
+
+            <input type="radio" name="p16" value="4" id="casi-siempre16">
+            <label for="casi-siempre16">Casi Siempre</label>
+
+            <input type="radio" name="p16" value="5" id="siempre16">
+            <label for="siempre16">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 17:</p>
+        <h2>¿Creo que casi todo tiene una explicación racional?</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p17" value="1" id="nunca17">
+            <label for="nunca17">Nunca</label>
+
+            <input type="radio" name="p17" value="2" id="casi-nunca17">
+            <label for="casi-nunca17">Casi Nunca</label>
+
+            <input type="radio" name="p17" value="3" id="a-veces17">
+            <label for="a-veces17">A Veces</label>
+
+            <input type="radio" name="p17" value="4" id="casi-siempre17">
+            <label for="casi-siempre17">Casi Siempre</label>
+
+            <input type="radio" name="p17" value="5" id="siempre17">
+            <label for="siempre17">Siempre</label>
+
+          </fieldset>          
+        </div>
+        <p>Pregunta 18:</p>
+        <h2>¿A veces pienso en conceptos claros, abstractos, sin palabras y sin imágenes?</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p18" value="1" id="nunca18">
+            <label for="nunca18">Nunca</label>
+
+            <input type="radio" name="p18" value="2" id="casi-nunca18">
+            <label for="casi-nunca18">Casi Nunca</label>
+
+            <input type="radio" name="p18" value="3" id="a-veces18">
+            <label for="a-veces18">A Veces</label>
+
+            <input type="radio" name="p18" value="4" id="casi-siempre18">
+            <label for="casi-siempre18">Casi Siempre</label>
+
+            <input type="radio" name="p18" value="5" id="siempre18">
+            <label for="siempre18">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 19:</p>
+        <h2>¿Me gusta encontrar defecto lógicos en las cosas que las personas dicen o hacen en su caso o en su trabajo?</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p19" value="1" id="nunca19">
+            <label for="nunca19">Nunca</label>
+
+            <input type="radio" name="p19" value="2" id="casi-nunca19">
+            <label for="casi-nunca19">Casi Nunca</label>
+
+            <input type="radio" name="p19" value="3" id="a-veces19">
+            <label for="a-veces19">A Veces</label>
+
+            <input type="radio" name="p19" value="4" id="casi-siempre19">
+            <label for="casi-siempre19">Casi Siempre</label>
+
+            <input type="radio" name="p19" value="5" id="siempre19">
+            <label for="siempre19">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 20:</p>
+        <h2>¿Me siento más cómodo cuando algo ha sido medido, categorizado, analizado o cuantificado de algún modo?</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p20" value="1" id="nunca20">
+            <label for="nunca20">Nunca</label>
+
+            <input type="radio" name="p20" value="2" id="casi-nunca20">
+            <label for="casi-nunca20">Casi Nunca</label>
+
+            <input type="radio" name="p20" value="3" id="a-veces20">
+            <label for="a-veces20">A Veces</label>
+
+            <input type="radio" name="p20" value="4" id="casi-siempre20">
+            <label for="casi-siempre20">Casi Siempre</label>
+
+            <input type="radio" name="p20" value="5" id="siempre20">
+            <label for="siempre20">Siempre</label>
+
+          </fieldset>  
+        </div>
+         <!-- ////////////////////////////////////////-->
+        <p>Pregunta 21:</p>
+        <h2>¿Soy sensible a los colores?</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p21" value="1" id="nunca21">
+            <label for="nunca21">Nunca</label>
+
+            <input type="radio" name="p21" value="2" id="casi-nunca21">
+            <label for="casi-nunca21">Casi Nunca</label>
+
+            <input type="radio" name="p21" value="3" id="a-veces21">
+            <label for="a-veces21">A Veces</label>
+
+            <input type="radio" name="p21" value="4" id="casi-siempre21">
+            <label for="casi-siempre21">Casi Siempre</label>
+
+            <input type="radio" name="p21" value="5" id="siempre21">
+            <label for="siempre21">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 22:</p>
+        <h2>¿Con frecuencia uso una cámara o una grabadora de video para registrar lo que veo a mi alrededor. ?</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p22" value="1" id="nunca22">
+            <label for="nunca22">Nunca</label>
+
+            <input type="radio" name="p22" value="2" id="casi-nunca22">
+            <label for="casi-nunca22">Casi Nunca</label>
+
+            <input type="radio" name="p22" value="3" id="a-veces22">
+            <label for="a-veces22">A Veces</label>
+
+            <input type="radio" name="p22" value="4" id="casi-siempre22">
+            <label for="casi-siempre22">Casi Siempre</label>
+
+            <input type="radio" name="p22" value="5" id="siempre22">
+            <label for="siempre22">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 23:</p>
+        <h2>¿Disfruto el armar rompecabezas y hacer laberintos y otros problemas visuales?</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p23" value="1" id="nunca23">
+            <label for="nunca23">Nunca</label>
+
+            <input type="radio" name="p23" value="2"  id="casi-nunca23">
+            <label for="casi-nunca23">Casi Nunca</label>
+
+            <input type="radio" name="p23" value="3" id="a-veces23">
+            <label for="a-veces23">A Veces</label>
+
+            <input type="radio" name="p23" value="4" id="casi-siempre23">
+            <label for="casi-siempre23">Casi Siempre</label>
+
+            <input type="radio" name="p23" value="5" id="siempre23">
+            <label for="siempre23">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 24:</p>
+        <h2>De noche tengo sueños vívidos</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p24" value="1"  id="nunca24">
+            <label for="nunca24">Nunca</label>
+
+            <input type="radio" name="p24" value="2" id="casi-nunca24">
+            <label for="casi-nunca24">Casi Nunca</label>
+
+            <input type="radio" name="p24" value="3" id="a-veces24">
+            <label for="a-veces24">A Veces</label>
+
+            <input type="radio" name="p24" value="4" id="casi-siempre24">
+            <label for="casi-siempre24">Casi Siempre</label>
+
+            <input type="radio" name="p24" value="5" id="siempre24">
+            <label for="siempre24">Siempre</label>
+
+          </fieldset>  
+        </div>        
+        <p>Pregunta 25:</p>
+        <h2>Por lo general me resulta fácil encontrar mi camino en lugares que no conozco</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p25" value="1" id="nunca25">
+            <label for="nunca25">Nunca</label>
+
+            <input type="radio" name="p25"  value="2" id="casi-nunca25">
+            <label for="casi-nunca25">Casi Nunca</label>
+
+            <input type="radio" name="p25" value="3"  id="a-veces25">
+            <label for="a-veces25">A Veces</label>
+
+            <input type="radio" name="p25" value="4"  id="casi-siempre25">
+            <label for="casi-siempre25">Casi Siempre</label>
+
+            <input type="radio" name="p25" value="5"  id="siempre25">
+            <label for="siempre25">Siempre</label>
+
+          </fieldset>          
+        </div>
+        <p>Pregunta 26:</p>
+        <h2>Me gusta dibujar o hacer dibujitos mientras hago otras cosas (por ejemplo al hablar por teléfono)</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p26" value="1" id="nunca26">
+            <label for="nunca26">Nunca</label>
+
+            <input type="radio" name="p26" value="2"  id="casi-nunca26">
+            <label for="casi-nunca26">Casi Nunca</label>
+
+            <input type="radio" name="p26" value="3"  id="a-veces26">
+            <label for="a-veces26">A Veces</label>
+
+            <input type="radio" name="p26" value="4"  id="casi-siempre26">
+            <label for="casi-siempre26">Casi Siempre</label>
+
+            <input type="radio" name="p26" value="5"  id="siempre26">
+            <label for="siempre26">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 27:</p>
+        <h2>Para mí, en la escuela, la geometría fue mas fácil que el algebra</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p27" value="1"  id="nunca27">
+            <label for="nunca27">Nunca</label>
+
+            <input type="radio" name="p27" value="2"  id="casi-nunca27">
+            <label for="casi-nunca27">Casi Nunca</label>
+
+            <input type="radio" name="p27" value="3"  id="a-veces27">
+            <label for="a-veces27">A Veces</label>
+
+            <input type="radio" name="p27" value="4"  id="casi-siempre27">
+            <label for="casi-siempre27">Casi Siempre</label>
+
+            <input type="radio" name="p27" value="5"  id="siempre27">
+            <label for="siempre27">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 28:</p>
+        <h2>Puedo imaginar sin dificultad como se vería una cosa desde arriba, a vuelo de pájaro</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p28" value="1"  id="nunca28">
+            <label for="nunca28">Nunca</label>
+
+            <input type="radio" name="p28" value="2"  id="casi-nunca28">
+            <label for="casi-nunca28">Casi Nunca</label>
+
+            <input type="radio" name="p28" value="3" id="a-veces28">
+            <label for="a-veces28">A Veces</label>
+
+            <input type="radio" name="p28" value="4"  id="casi-siempre28">
+            <label for="casi-siempre28">Casi Siempre</label>
+
+            <input type="radio" name="p28" value="5" id="siempre28">
+            <label for="siempre28">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 29:</p>
+        <h2>Prefiero los materiales de lectura que tienen muchas ilustraciones</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p29" value="1"  id="nunca29">
+            <label for="nunca29">Nunca</label>
+
+            <input type="radio" name="p29" value="2"  id="casi-nunca29">
+            <label for="casi-nunca29">Casi Nunca</label>
+
+            <input type="radio" name="p29" value="3"  id="a-veces29">
+            <label for="a-veces29">A Veces</label>
+
+            <input type="radio" name="p29"  value="4" id="casi-siempre29">
+            <label for="casi-siempre29">Casi Siempre</label>
+
+            <input type="radio" name="p29" value="5" id="siempre29">
+            <label for="siempre29">Siempre</label>
+
+          </fieldset>  
+        </div>
+
+        <!-- ////////////////////////////////////////-->
+        <p>Pregunta 30:</p>
+        <h2>Práctico de manera regular por lo menos un deporte o actividad física</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p30" value="1" id="nunca30">
+            <label for="nunca30">Nunca</label>
+
+            <input type="radio" name="p30" value="2"  id="casi-nunca30">
+            <label for="casi-nunca30">Casi Nunca</label>
+
+            <input type="radio" name="p30" value="3" id="a-veces30">
+            <label for="a-veces30">A Veces</label>
+
+            <input type="radio" name="p30" value="4" id="casi-siempre30">
+            <label for="casi-siempre30">Casi Siempre</label>
+
+            <input type="radio" name="p30" value="5" id="siempre30">
+            <label for="siempre30">Siempre</label>
+
+          </fieldset>  
+        </div>
+       
+        <p>Pregunta 31:</p>
+        <h2>Me resulta difícil estar sentado durante períodos largos de tiempo</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p31" value="1" id="nunca31">
+            <label for="nunca31">Nunca</label>
+
+            <input type="radio" name="p31" value="2" id="casi-nunca31">
+            <label for="casi-nunca31">Casi Nunca</label>
+
+            <input type="radio" name="p31" value="3" id="a-veces31">
+            <label for="a-veces31">A Veces</label>
+
+            <input type="radio" name="p31" value="4" id="casi-siempre31">
+            <label for="casi-siempre31">Casi Siempre</label>
+
+            <input type="radio" name="p31" value="5" id="siempre31">
+            <label for="siempre31">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 32:</p>
+        <h2>Me gusta trabajar con mis manos en actividades concretas como coser, tejer, tallar, trabajos de carpintería o construcción de modelos</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p32" value="1" id="nunca32">
+            <label for="nunca32">Nunca</label>
+
+            <input type="radio" name="p32" value="2" id="casi-nunca32">
+            <label for="casi-nunca32">Casi Nunca</label>
+
+            <input type="radio" name="p32" value="3" id="a-veces32">
+            <label for="a-veces32">A Veces</label>
+
+            <input type="radio" name="p32" value="4" id="casi-siempre32">
+            <label for="casi-siempre32">Casi Siempre</label>
+
+            <input type="radio" name="p32" value="5" id="siempre32">
+            <label for="siempre32">Siempre</label>
+
+          </fieldset>  
+        </div>        
+        <p>Pregunta 33:</p>
+        <h2>Mis mejores ideas a menudo me vienen cuando he salido a dar una caminata larga o a correr, o mientras estoy ocupado en alguna otra actividad física</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p33" value="1" id="nunca33">
+            <label for="nunca33">Nunca</label>
+
+            <input type="radio" name="p33" value="2" id="casi-nunca33">
+            <label for="casi-nunca33">Casi Nunca</label>
+
+            <input type="radio" name="p33" value="3" id="a-veces33">
+            <label for="a-veces33">A Veces</label>
+
+            <input type="radio" name="p33" value="4" id="casi-siempre33">
+            <label for="casi-siempre33">Casi Siempre</label>
+
+            <input type="radio" name="p33" value="5" id="siempre33">
+            <label for="siempre33">Siempre</label>
+
+          </fieldset>          
+        </div>
+        <p>Pregunta 34:</p>
+        <h2>Muy frecuentemente prefiero pasar mi tiempo libre al aire libr34</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p34" value="1" id="nunca34">
+            <label for="nunca34">Nunca</label>
+
+            <input type="radio" name="p34" value="2" id="casi-nunca34">
+            <label for="casi-nunca34">Casi Nunca</label>
+
+            <input type="radio" name="p34" value="3" id="a-veces34">
+            <label for="a-veces34">A Veces</label>
+
+            <input type="radio" name="p34" value="4" id="casi-siempre34">
+            <label for="casi-siempre34">Casi Siempre</label>
+
+            <input type="radio" name="p34" value="5" id="siempre34">
+            <label for="siempre34">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 35:</p>
+        <h2>Cuando conversa con alguien muchas veces uso señales, gestos u otras formas de lenguaje corporal</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p35" value="1" id="nunca35">
+            <label for="nunca35">Nunca</label>
+
+            <input type="radio" name="p35" value="2" id="casi-nunca35">
+            <label for="casi-nunca35">Casi Nunca</label>
+
+            <input type="radio" name="p35" value="3" id="a-veces35">
+            <label for="a-veces35">A Veces</label>
+
+            <input type="radio" name="p35" value="4" id="casi-siempre35">
+            <label for="casi-siempre35">Casi Siempre</label>
+
+            <input type="radio" name="p35" value="5" id="siempre35">
+            <label for="siempre35">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 36:</p>
+        <h2>Necesito tocar las cosas para saber mas de ellas</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p36" value="1" id="nunca36">
+            <label for="nunca36">Nunca</label>
+
+            <input type="radio" name="p36" value="2" id="casi-nunca36">
+            <label for="casi-nunca36">Casi Nunca</label>
+
+            <input type="radio" name="p36" value="3" id="a-veces36">
+            <label for="a-veces36">A Veces</label>
+
+            <input type="radio" name="p36" value="4" id="casi-siempre36">
+            <label for="casi-siempre36">Casi Siempre</label>
+
+            <input type="radio" name="p36" value="5" id="siempre36">
+            <label for="siempre36">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 37:</p>
+        <h2>Disfruto las actividades físicamente arriesgadas u otras formas similares de acción física que me enfrenten con el peligro</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p37" value="1" id="nunca37">
+            <label for="nunca37">Nunca</label>
+
+            <input type="radio" name="p37" value="2" id="casi-nunca37">
+            <label for="casi-nunca37">Casi Nunca</label>
+
+            <input type="radio" name="p37" value="3" id="a-veces37">
+            <label for="a-veces37">A Veces</label>
+
+            <input type="radio" name="p37" value="4" id="casi-siempre37">
+            <label for="casi-siempre37">Casi Siempre</label>
+
+            <input type="radio" name="p37" value="5" id="siempre37">
+            <label for="siempre37">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 38:</p>
+        <h2>Me describiría como bien coordinado</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p38" value="1" id="nunca38">
+            <label for="nunca38">Nunca</label>
+
+            <input type="radio" name="p38" value="2" id="casi-nunca38">
+            <label for="casi-nunca38">Casi Nunca</label>
+
+            <input type="radio" name="p38" value="3" id="a-veces38">
+            <label for="a-veces38">A Veces</label>
+
+            <input type="radio" name="p38" value=4" id="casi-siempre38">
+            <label for="casi-siempre38">Casi Siempre</label>
+
+            <input type="radio" name="p38" value="5" id="siempre38">
+            <label for="siempre38">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 39:</p>
+        <h2>Me gusta practicar una nueva habilidad física más que leer sobre ella o vería representada en una filmación</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p39" value="1" id="nunca39">
+            <label for="nunca39">Nunca</label>
+
+            <input type="radio" name="p39" value="2" id="casi-nunca39">
+            <label for="casi-nunca39">Casi Nunca</label>
+
+            <input type="radio" name="p39" value="3" id="a-veces39">
+            <label for="a-veces39">A Veces</label>
+
+            <input type="radio" name="p39" value="4" id="casi-siempre39">
+            <label for="casi-siempre39">Casi Siempre</label>
+
+            <input type="radio" name="p39" value="5" id="siempre39">
+            <label for="siempre39">Siempre</label>
+
+          </fieldset>  
+        </div>
+  <!-- ////////////////////////////////////////-->
+        <p>Pregunta 40:</p>
+        <h2>Tengo una voz agradable para cantar</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p40" value="1" id="nunca40">
+            <label for="nunca40">Nunca</label>
+
+            <input type="radio" name="p40" value="2" id="casi-nunca40">
+            <label for="casi-nunca40">Casi Nunca</label>
+
+            <input type="radio" name="p40" value="3" id="a-veces40">
+            <label for="a-veces40">A Veces</label>
+
+            <input type="radio" name="p40" value="4" id="casi-siempre40">
+            <label for="casi-siempre40">Casi Siempre</label>
+
+            <input type="radio" name="p40" value="5" id="siempre40">
+            <label for="siempre40">Siempre</label>
+
+          </fieldset>  
+        </div>        
+        <p>Pregunta 41:</p>
+        <h2>Puedo darme cuenta cuándo una nota musical está fuera de tono</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p41" value="1" id="nunca41">
+            <label for="nunca41">Nunca</label>
+
+            <input type="radio" name="p41" value="2" id="casi-nunca41">
+            <label for="casi-nunca41">Casi Nunca</label>
+
+            <input type="radio" name="p41" value="3" id="a-veces41">
+            <label for="a-veces41">A Veces</label>
+
+            <input type="radio" name="p41" value="4" id="casi-siempre41">
+            <label for="casi-siempre41">Casi Siempre</label>
+
+            <input type="radio" name="p41" value="5" id="siempre41">
+            <label for="siempre41">Siempre</label>
+
+          </fieldset>          
+        </div>
+        <p>Pregunta 42:</p>
+        <h2>Escucho música frecuentemente por la radio, en discos, casetes o discos compactos</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p42" value="1" id="nunca42">
+            <label for="nunca42">Nunca</label>
+
+            <input type="radio" name="p42" value="2" id="casi-nunca42">
+            <label for="casi-nunca42">Casi Nunca</label>
+
+            <input type="radio" name="p42" value="3" id="a-veces42">
+            <label for="a-veces42">A Veces</label>
+
+            <input type="radio" name="p42" value="4" id="casi-siempre42">
+            <label for="casi-siempre42">Casi Siempre</label>
+
+            <input type="radio" name="p42" value="5" id="siempre42">
+            <label for="siempre42">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 43:</p>
+        <h2>Toco un instrumento musical</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p43" value="1" id="nunca43">
+            <label for="nunca43">Nunca</label>
+
+            <input type="radio" name="p43" value="2" id="casi-nunca43">
+            <label for="casi-nunca43">Casi Nunca</label>
+
+            <input type="radio" name="p43" value="3" id="a-veces43">
+            <label for="a-veces43">A Veces</label>
+
+            <input type="radio" name="p43" value="4" id="casi-siempre43">
+            <label for="casi-siempre43">Casi Siempre</label>
+
+            <input type="radio" name="p43" value="5" id="siempre43">
+            <label for="siempre43">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 44:</p>
+        <h2>Mi vida sería mas pobre si en ella no existiera la música</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p44" value="1" id="nunca44">
+            <label for="nunca44">Nunca</label>
+
+            <input type="radio" name="p44" value="2" id="casi-nunca44">
+            <label for="casi-nunca44">Casi Nunca</label>
+
+            <input type="radio" name="p44" value="3" id="a-veces44">
+            <label for="a-veces44">A Veces</label>
+
+            <input type="radio" name="p44" value="4" id="casi-siempre44">
+            <label for="casi-siempre44">Casi Siempre</label>
+
+            <input type="radio" name="p44" value="5" id="siempre44">
+            <label for="siempre44">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 45:</p>
+        <h2>A veces me sucede que al caminar por la calle llevo en la mente una melodía o un jingle de la televisión</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p45" value="1" id="nunca45">
+            <label for="nunca45">Nunca</label>
+
+            <input type="radio" name="p45" value="2" id="casi-nunca45">
+            <label for="casi-nunca45">Casi Nunca</label>
+
+            <input type="radio" name="p45" value="3" id="a-veces45">
+            <label for="a-veces45">A Veces</label>
+
+            <input type="radio" name="p45" value="4" id="casi-siempre45">
+            <label for="casi-siempre45">Casi Siempre</label>
+
+            <input type="radio" name="p45" value="5" id="siempre45">
+            <label for="siempre45">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 46:</p>
+        <h2>Con facilidad puedo seguir el ritmo de una pieza musical con algún instrumento de percusión simple</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p46" value="1" id="nunca46">
+            <label for="nunca46">Nunca</label>
+
+            <input type="radio" name="p46" value="2" id="casi-nunca46">
+            <label for="casi-nunca46">Casi Nunca</label>
+
+            <input type="radio" name="p46" value="3" id="a-veces46">
+            <label for="a-veces46">A Veces</label>
+
+            <input type="radio" name="p46" value="4" id="casi-siempre46">
+            <label for="casi-siempre46">Casi Siempre</label>
+
+            <input type="radio" name="p46" value="5" id="siempre46">
+            <label for="siempre46">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 47:</p>
+        <h2>Conozco de memoria muchas piezas musicales y canciones</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p47" value="1" id="nunca47">
+            <label for="nunca47">Nunca</label>
+
+            <input type="radio" name="p47" value="2" id="casi-nunca47">
+            <label for="casi-nunca47">Casi Nunca</label>
+
+            <input type="radio" name="p47" value="3" id="a-veces47">
+            <label for="a-veces47">A Veces</label>
+
+            <input type="radio" name="p47" value="4" id="casi-siempre47">
+            <label for="casi-siempre47">Casi Siempre</label>
+
+            <input type="radio" name="p47" value="5" id="siempre47">
+            <label for="siempre47">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 48:</p>
+        <h2>Si escucho una o dos veces una pieza musical, por lo general puedo volver a cantar la melodía con bastante precisión</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p48" value="1" id="nunca48">
+            <label for="nunca48">Nunca</label>
+
+            <input type="radio" name="p48" value="2" id="casi-nunca48">
+            <label for="casi-nunca48">Casi Nunca</label>
+
+            <input type="radio" name="p48" value="3" id="a-veces48">
+            <label for="a-veces48">A Veces</label>
+
+            <input type="radio" name="p48" value="4" id="casi-siempre48">
+            <label for="casi-siempre48">Casi Siempre</label>
+
+            <input type="radio" name="p48" value="5" id="siempre48">
+            <label for="siempre48">Siempre</label>
+
+          </fieldset>  
+        </div>        
+        <p>Pregunta 49:</p>
+        <h2>A menudo, tamborileo o canto melodías sencillas mientras trabajo; estudio o aprendo algo nuevo</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p49" value="1" id="nunca49">
+            <label for="nunca49">Nunca</label>
+
+            <input type="radio" name="p49" value="2" id="casi-nunca49">
+            <label for="casi-nunca49">Casi Nunca</label>
+
+            <input type="radio" name="p49" value="3" id="a-veces49">
+            <label for="a-veces49">A Veces</label>
+
+            <input type="radio" name="p49" value="4" id="casi-siempre49">
+            <label for="casi-siempre49">Casi Siempre</label>
+
+            <input type="radio" name="p49" value="5" id="siempre49">
+            <label for="siempre49">Siempre</label>
+
+          </fieldset>          
+        </div>
+        <!-- ////////////////////////////////////////-->
+        <p>Pregunta 50:</p>
+        <h2>Amo ir a caminar a los bosques y mirar a los Árboles y las flores</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p50" value="1" id="nunca50">
+            <label for="nunca50">Nunca</label>
+
+            <input type="radio" name="p50" value="2" id="casi-nunca50">
+            <label for="casi-nunca50">Casi Nunca</label>
+
+            <input type="radio" name="p50" value="3" id="a-veces50">
+            <label for="a-veces50">A Veces</label>
+
+            <input type="radio" name="p50" value="4" id="casi-siempre50">
+            <label for="casi-siempre50">Casi Siempre</label>
+
+            <input type="radio" name="p50" value="5" id="siempre50">
+            <label for="siempre50">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 51:</p>
+        <h2>Disfruto la jardinería</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p51" value="1" id="nunca51">
+            <label for="nunca51">Nunca</label>
+
+            <input type="radio" name="p51" value="2" id="casi-nunca51">
+            <label for="casi-nunca51">Casi Nunca</label>
+
+            <input type="radio" name="p51" value="3" id="a-veces51">
+            <label for="a-veces51">A Veces</label>
+
+            <input type="radio" name="p51" value="4" id="casi-siempre51">
+            <label for="casi-siempre51">Casi Siempre</label>
+
+            <input type="radio" name="p51" value="5" id="siempre51">
+            <label for="siempre51">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 52:</p>
+        <h2>Disfruto de la naturaleza y estar al aire libre.</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p52" value="1" id="nunca52">
+            <label for="nunca52">Nunca</label>
+
+            <input type="radio" name="p52" value="2" id="casi-nunca52">
+            <label for="casi-nunca52">Casi Nunca</label>
+
+            <input type="radio" name="p52" value="3" id="a-veces52">
+            <label for="a-veces52">A Veces</label>
+
+            <input type="radio" name="p52" value="4" id="casi-siempre52">
+            <label for="casi-siempre52">Casi Siempre</label>
+
+            <input type="radio" name="p52" value="5" id="siempre52">
+            <label for="siempre52">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 53:</p>
+        <h2>Disfruto aprendiendo los nombres de las seres vivientes de nuestro medio ambiente</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p53" value="1" id="nunca53">
+            <label for="nunca53">Nunca</label>
+
+            <input type="radio" name="p53" value="2" id="casi-nunca53">
+            <label for="casi-nunca53">Casi Nunca</label>
+
+            <input type="radio" name="p53" value="3" id="a-veces53">
+            <label for="a-veces53">A Veces</label>
+
+            <input type="radio" name="p53" value="4" id="casi-siempre53">
+            <label for="casi-siempre53">Casi Siempre</label>
+
+            <input type="radio" name="p53" value="5" id="siempre53">
+            <label for="siempre53">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 54:</p>
+        <h2>Hago colecciones de piedras, esqueletos, hojas, insectos, mariposas, joyas o flores</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p54" value="1" id="nunca54">
+            <label for="nunca54">Nunca</label>
+
+            <input type="radio" name="p54" value="2" id="casi-nunca54">
+            <label for="casi-nunca54">Casi Nunca</label>
+
+            <input type="radio" name="p54" value="3" id="a-veces54">
+            <label for="a-veces54">A Veces</label>
+
+            <input type="radio" name="p54" value="4" id="casi-siempre54">
+            <label for="casi-siempre54">Casi Siempre</label>
+
+            <input type="radio" name="p54" value="5" id="siempre54">
+            <label for="siempre54">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 55:</p>
+        <h2>Me gusta pasar a menudo mi tiempo al aire libre, donde pueda correr</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p55" value="1" id="nunca55">
+            <label for="nunca55">Nunca</label>
+
+            <input type="radio" name="p55" value="2" id="casi-nunca55">
+            <label for="casi-nunca55">Casi Nunca</label>
+
+            <input type="radio" name="p55" value="3" id="a-veces55">
+            <label for="a-veces55">A Veces</label>
+
+            <input type="radio" name="p55" value="4" id="casi-siempre55">
+            <label for="casi-siempre55">Casi Siempre</label>
+
+            <input type="radio" name="p55" value="5" id="siempre55">
+            <label for="siempre55">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 56:</p>
+        <h2>Disfruto la pesca, la caza, la horticultura o sembrar plantas</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p56" value="1" id="nunca56">
+            <label for="nunca56">Nunca</label>
+
+            <input type="radio" name="p56" value="2" id="casi-nunca56">
+            <label for="casi-nunca56">Casi Nunca</label>
+
+            <input type="radio" name="p56" value="3" id="a-veces56">
+            <label for="a-veces56">A Veces</label>
+
+            <input type="radio" name="p56" value="4" id="casi-siempre56">
+            <label for="casi-siempre56">Casi Siempre</label>
+
+            <input type="radio" name="p56" value="5" id="siempre56">
+            <label for="siempre56">Siempre</label>
+
+          </fieldset>  
+        </div>        
+        <p>Pregunta 57:</p>
+        <h2>Me gusta todo tipo de animales</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p57" value="1" id="nunca57">
+            <label for="nunca57">Nunca</label>
+
+            <input type="radio" name="p57" value="2" id="casi-nunca57">
+            <label for="casi-nunca57">Casi Nunca</label>
+
+            <input type="radio" name="p57" value="3" id="a-veces57">
+            <label for="a-veces57">A Veces</label>
+
+            <input type="radio" name="p57" value="4" id="casi-siempre57">
+            <label for="casi-siempre57">Casi Siempre</label>
+
+            <input type="radio" name="p57" value="5" id="siempre57">
+            <label for="siempre57">Siempre</label>
+
+          </fieldset>          
+        </div>
+        <p>Pregunta 58:</p>
+        <h2>Regularmente reviso los informes del estado del clima</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p58" value="1" id="nunca58">
+            <label for="nunca58">Nunca</label>
+
+            <input type="radio" name="p58" value="2" id="casi-nunca58">
+            <label for="casi-nunca58">Casi Nunca</label>
+
+            <input type="radio" name="p58" value="3" id="a-veces58">
+            <label for="a-veces58">A Veces</label>
+
+            <input type="radio" name="p58" value="4" id="casi-siempre58">
+            <label for="casi-siempre58">Casi Siempre</label>
+
+            <input type="radio" name="p58" value="5" id="siempre58">
+            <label for="siempre58">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 59:</p>
+        <h2>Me gusta alejarme de las ciudades y disfrutar de la naturaleza</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p59" value="1" id="nunca59">
+            <label for="nunca59">Nunca</label>
+
+            <input type="radio" name="p59" value="2" id="casi-nunca59">
+            <label for="casi-nunca59">Casi Nunca</label>
+
+            <input type="radio" name="p59" value="3" id="a-veces59">
+            <label for="a-veces59">A Veces</label>
+
+            <input type="radio" name="p59" value="4" id="casi-siempre59">
+            <label for="casi-siempre59">Casi Siempre</label>
+
+            <input type="radio" name="p59" value="5" id="siempre59">
+            <label for="siempre59">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <!-- ////////////////////////////////////////-->
+        <p>Pregunta 60:</p>
+        <h2>Soy el tipo de persona a quien vienen para contarme cosas o pedirme consejo otras personas en mi trabajo o en el barrio donde vivo</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p60" value="1" id="nunca60">
+            <label for="nunca60">Nunca</label>
+
+            <input type="radio" name="p60" value="2" id="casi-nunca60">
+            <label for="casi-nunca60">Casi Nunca</label>
+
+            <input type="radio" name="p60" value="3" id="a-veces60">
+            <label for="a-veces60">A Veces</label>
+
+            <input type="radio" name="p60" value="4" id="casi-siempre60">
+            <label for="casi-siempre60">Casi Siempre</label>
+
+            <input type="radio" name="p60" value="5" id="siempre60">
+            <label for="siempre60">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 61:</p>
+        <h2>Prefiero los deportes que se practican en grupo, como el fútbol o el voleibol a los deportes solitarios como la natación o carrera de fondo</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p61" value="1" id="nunca61">
+            <label for="nunca61">Nunca</label>
+
+            <input type="radio" name="p61" value="2" id="casi-nunca61">
+            <label for="casi-nunca61">Casi Nunca</label>
+
+            <input type="radio" name="p61" value="3" id="a-veces61">
+            <label for="a-veces61">A Veces</label>
+
+            <input type="radio" name="p61" value="4" id="casi-siempre61">
+            <label for="casi-siempre61">Casi Siempre</label>
+
+            <input type="radio" name="p61" value="5" id="siempre61">
+            <label for="siempre61">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 62:</p>
+        <h2>Cuando tengo algún problema, lo mas frecuente es que busque a otra persona para contárselo y pedirle ayuda antes de tratar de resolverlo por mi mismo</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p62" value="1" id="nunca62">
+            <label for="nunca62">Nunca</label>
+
+            <input type="radio" name="p62" value="2" id="casi-nunca62">
+            <label for="casi-nunca62">Casi Nunca</label>
+
+            <input type="radio" name="p62" value="3" id="a-veces62">
+            <label for="a-veces62">A Veces</label>
+
+            <input type="radio" name="p62" value="4" id="casi-siempre62">
+            <label for="casi-siempre62">Casi Siempre</label>
+
+            <input type="radio" name="p62" value="5" id="siempre62">
+            <label for="siempre62">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 63:</p>
+        <h2>Tengo por lo menos tres amigos íntimos</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p63" value="1" id="nunca63">
+            <label for="nunca63">Nunca</label>
+
+            <input type="radio" name="p63" value="2" id="casi-nunca63">
+            <label for="casi-nunca63">Casi Nunca</label>
+
+            <input type="radio" name="p63" value="3" id="a-veces63">
+            <label for="a-veces63">A Veces</label>
+
+            <input type="radio" name="p63" value="4" id="casi-siempre63">
+            <label for="casi-siempre63">Casi Siempre</label>
+
+            <input type="radio" name="p63" value="5" id="siempre63">
+            <label for="siempre63">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 64:</p>
+        <h2>Prefiero los pasatiempos sociales como el Estanciero o el bridge, antes que las recreaciones solitarias como los juegos de computadora o los juegos de carta solitarios</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p64" value="1" id="nunca64">
+            <label for="nunca64">Nunca</label>
+
+            <input type="radio" name="p64" value="2" id="casi-nunca64">
+            <label for="casi-nunca64">Casi Nunca</label>
+
+            <input type="radio" name="p64" value="3" id="a-veces64">
+            <label for="a-veces64">A Veces</label>
+
+            <input type="radio" name="p64" value="4" id="casi-siempre64">
+            <label for="casi-siempre64">Casi Siempre</label>
+
+            <input type="radio" name="p64" value="5" id="siempre64">
+            <label for="siempre64">Siempre</label>
+
+          </fieldset>  
+        </div>        
+        <p>Pregunta 65:</p>
+        <h2>Disfruto el desafío de enseñar a otra persona, o grupos de personas, las cosas que sé hacer</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p65" value="1" id="nunca65">
+            <label for="nunca65">Nunca</label>
+
+            <input type="radio" name="p65" value="2" id="casi-nunca65">
+            <label for="casi-nunca65">Casi Nunca</label>
+
+            <input type="radio" name="p65" value="3" id="a-veces65">
+            <label for="a-veces65">A Veces</label>
+
+            <input type="radio" name="p65" value="4" id="casi-siempre65">
+            <label for="casi-siempre65">Casi Siempre</label>
+
+            <input type="radio" name="p65" value="5" id="siempre65">
+            <label for="siempre65">Siempre</label>
+
+          </fieldset>          
+        </div>
+        <p>Pregunta 66:</p>
+        <h2>Me considero un lider u otros me han dicho que lo soy</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p66" value="1" id="nunca66">
+            <label for="nunca66">Nunca</label>
+
+            <input type="radio" name="p66" value="2" id="casi-nunca66">
+            <label for="casi-nunca66">Casi Nunca</label>
+
+            <input type="radio" name="p66" value="3" id="a-veces66">
+            <label for="a-veces66">A Veces</label>
+
+            <input type="radio" name="p66" value="4" id="casi-siempre66">
+            <label for="casi-siempre66">Casi Siempre</label>
+
+            <input type="radio" name="p66" value="5" id="siempre66">
+            <label for="siempre66">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 67:</p>
+        <h2>Me siento cómodo en medio de una multitud</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p67" value="1" id="nunca67">
+            <label for="nunca67">Nunca</label>
+
+            <input type="radio" name="p67" value="2" id="casi-nunca67">
+            <label for="casi-nunca67">Casi Nunca</label>
+
+            <input type="radio" name="p67" value="3" id="a-veces67">
+            <label for="a-veces67">A Veces</label>
+
+            <input type="radio" name="p67" value="4" id="casi-siempre67">
+            <label for="casi-siempre67">Casi Siempre</label>
+
+            <input type="radio" name="p67" value="5" id="siempre67">
+            <label for="siempre67">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 68:</p>
+        <h2>Me gusta participar en las actividades sociales que están relacionadas con mi trabajo, iglesia o comunidad</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p68" value="1" id="nunca68">
+            <label for="nunca68">Nunca</label>
+
+            <input type="radio" name="p68" value="2" id="casi-nunca68">
+            <label for="casi-nunca68">Casi Nunca</label>
+
+            <input type="radio" name="p68" value="3" id="a-veces68">
+            <label for="a-veces68">A Veces</label>
+
+            <input type="radio" name="p68" value="4" id="casi-siempre68">
+            <label for="casi-siempre68">Casi Siempre</label>
+
+            <input type="radio" name="p68" value="5" id="siempre68">
+            <label for="siempre68">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 69:</p>
+        <h2>Prefiero pasar la noche en una fiesta animada antes que quedarme solo en casa</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p69" value="1" id="nunca69">
+            <label for="nunca69">Nunca</label>
+
+            <input type="radio" name="p69" value="2" id="casi-nunca69">
+            <label for="casi-nunca69">Casi Nunca</label>
+
+            <input type="radio" name="p69" value="3" id="a-veces69">
+            <label for="a-veces69">A Veces</label>
+
+            <input type="radio" name="p69" value="4" id="casi-siempre69">
+            <label for="casi-siempre69">Casi Siempre</label>
+
+            <input type="radio" name="p69" value="5" id="siempre69">
+            <label for="siempre69">Siempre</label>
+
+          </fieldset>  
+        </div>
+      <!-- ////////////////////////////////////////-->
+        <p>Pregunta 70:</p>
+        <h2>De una manera regular paso tiempo solo meditando, reflexionando o pensando en cosas importantes</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p70" value="1" id="nunca70">
+            <label for="nunca70">Nunca</label>
+
+            <input type="radio" name="p70" value="2" id="casi-nunca70">
+            <label for="casi-nunca70">Casi Nunca</label>
+
+            <input type="radio" name="p70" value="3" id="a-veces70">
+            <label for="a-veces70">A Veces</label>
+
+            <input type="radio" name="p70" value="4" id="casi-siempre70">
+            <label for="casi-siempre70">Casi Siempre</label>
+
+            <input type="radio" name="p70" value="5" id="siempre70">
+            <label for="siempre70">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 71:</p>
+        <h2>He asistido a sesiones de terapia o seminarios de crecimiento personal para aprender más sobre mí mismo</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p71" value="1" id="nunca71">
+            <label for="nunca71">Nunca</label>
+
+            <input type="radio" name="p71" value="2" id="casi-nunca71">
+            <label for="casi-nunca71">Casi Nunca</label>
+
+            <input type="radio" name="p71" value="3" id="a-veces71">
+            <label for="a-veces71">A Veces</label>
+
+            <input type="radio" name="p71" value="4" id="casi-siempre71">
+            <label for="casi-siempre71">Casi Siempre</label>
+
+            <input type="radio" name="p71" value="5" id="siempre71">
+            <label for="siempre71">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 72:</p>
+        <h2>Soy capaz de resistir los golpes de la vida</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p72" value="1" id="nunca72">
+            <label for="nunca72">Nunca</label>
+
+            <input type="radio" name="p72" value="2" id="casi-nunca72">
+            <label for="casi-nunca72">Casi Nunca</label>
+
+            <input type="radio" name="p72" value="3" id="a-veces72">
+            <label for="a-veces72">A Veces</label>
+
+            <input type="radio" name="p72" value="4" id="casi-siempre72">
+            <label for="casi-siempre72">Casi Siempre</label>
+
+            <input type="radio" name="p72" value="5" id="siempre72">
+            <label for="siempre72">Siempre</label>
+
+          </fieldset>  
+        </div>        
+        <p>Pregunta 73:</p>
+        <h2>Tengo un hobby o interés personal que por lo general no comparto con otros</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p73" value="1" id="nunca73">
+            <label for="nunca73">Nunca</label>
+
+            <input type="radio" name="p73" value="2" id="casi-nunca73">
+            <label for="casi-nunca73">Casi Nunca</label>
+
+            <input type="radio" name="p73" value="3" id="a-veces73">
+            <label for="a-veces73">A Veces</label>
+
+            <input type="radio" name="p73" value="4" id="casi-siempre73">
+            <label for="casi-siempre73">Casi Siempre</label>
+
+            <input type="radio" name="p73" value="5" id="siempre73">
+            <label for="siempre73">Siempre</label>
+
+          </fieldset>          
+        </div>
+        <p>Pregunta 74:</p>
+        <h2>Tengo algunas metas importantes para mi vida sobre la que pienso de manera regular </h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p74" value="1" id="nunca74">
+            <label for="nunca74">Nunca</label>
+
+            <input type="radio" name="p74" value="2" id="casi-nunca74">
+            <label for="casi-nunca74">Casi Nunca</label>
+
+            <input type="radio" name="p74" value="3" id="a-veces74">
+            <label for="a-veces74">A Veces</label>
+
+            <input type="radio" name="p74" value="4" id="casi-siempre74">
+            <label for="casi-siempre74">Casi Siempre</label>
+
+            <input type="radio" name="p74" value="5" id="siempre74">
+            <label for="siempre74">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 75:</p>
+        <h2>Tengo una visión realista de mis fuerzas y de mis debilidades (apoyado en las reacciones de los otros).</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p75" value="1" id="nunca75">
+            <label for="nunca75">Nunca</label>
+
+            <input type="radio" name="p75" value="2" id="casi-nunca75">
+            <label for="casi-nunca75">Casi Nunca</label>
+
+            <input type="radio" name="p75" value="3" id="a-veces75">
+            <label for="a-veces75">A Veces</label>
+
+            <input type="radio" name="p75" value="4" id="casi-siempre75">
+            <label for="casi-siempre75">Casi Siempre</label>
+
+            <input type="radio" name="p75" value="5" id="siempre75">
+            <label for="siempre75">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 76:</p>
+        <h2>Preferiría pasar un fin de semana solo en una cabaña en el bosque antes que en un balneario de moda rodeado de mucha gente</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p76" value="1" id="nunca76">
+            <label for="nunca76">Nunca</label>
+
+            <input type="radio" name="p76" value="2" id="casi-nunca76">
+            <label for="casi-nunca76">Casi Nunca</label>
+
+            <input type="radio" name="p76" value="3" id="a-veces76">
+            <label for="a-veces76">A Veces</label>
+
+            <input type="radio" name="p76" value="4" id="casi-siempre76">
+            <label for="casi-siempre76">Casi Siempre</label>
+
+            <input type="radio" name="p76" value="5" id="siempre76">
+            <label for="siempre76">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 77:</p>
+        <h2>Considero que poseo una voluntad fuerte y una mente independiente</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p77" value="1" id="nunca77">
+            <label for="nunca77">Nunca</label>
+
+            <input type="radio" name="p77" value="2" id="casi-nunca77">
+            <label for="casi-nunca77">Casi Nunca</label>
+
+            <input type="radio" name="p77" value="3" id="a-veces77">
+            <label for="a-veces77">A Veces</label>
+
+            <input type="radio" name="p77" value="4" id="casi-siempre77">
+            <label for="casi-siempre77">Casi Siempre</label>
+
+            <input type="radio" name="p77" value="5" id="siempre77">
+            <label for="siempre77">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 78:</p>
+        <h2>Llevo un diario personal donde registro las cosas que suceden en mi vida interior</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p78" value="1" id="nunca78">
+            <label for="nunca78">Nunca</label>
+
+            <input type="radio" name="p78" value="2" id="casi-nunca78">
+            <label for="casi-nunca78">Casi Nunca</label>
+
+            <input type="radio" name="p78" value="3" id="a-veces78">
+            <label for="a-veces78">A Veces</label>
+
+            <input type="radio" name="p78" value="4" id="casi-siempre78">
+            <label for="casi-siempre78">Casi Siempre</label>
+
+            <input type="radio" name="p78" value="5" id="siempre78">
+            <label for="siempre78">Siempre</label>
+
+          </fieldset>  
+        </div>
+        <p>Pregunta 79:</p>
+        <h2>Trabajo por mi cuenta o por lo menos he pensado seriamente en establecerme de manera independiente.</h2>
+        <div class="radio">
+          <fieldset class="fieldset">
+            <input type="radio" name="p79" value="1" id="nunca79">
+            <label for="nunca79">Nunca</label>
+
+            <input type="radio" name="p79" value="2" id="casi-nunca79">
+            <label for="casi-nunca79">Casi Nunca</label>
+
+            <input type="radio" name="p79" value="3" id="a-veces79">
+            <label for="a-veces79">A Veces</label>
+
+            <input type="radio" name="p79" value="4" id="casi-siempre79">
+            <label for="casi-siempre79">Casi Siempre</label>
+
+            <input type="radio" name="p79" value="5" id="siempre79">
+            <label for="siempre79">Siempre</label>
+            
+          </fieldset> 
+           
+        </div>
+ 
+    <section class="btn-container ">
+        <a class="btn-ghost round" onclick="javascript:getData()">Enviar Datos</a>
+    </section>
+    </form>
+</div>
+
+<div class="paginas" id="compatible">
+  
+  <div class="results">
+    
+    <div v-if="filledInTest" class="main-container" >
+      
+      <!--A-->  
+      <div id="graficos" >
+          <h1>inteligencia lingustica</h1>
+          <canvas id="myCharta1"></canvas>
+        </div>
+        <br/><br/><br/><br/><br/><br/><br/>
+        <div id="graficos" >
+          <canvas id="myCharta2"></canvas>
+        </div>
+        <!--B-->
+      <div id="graficos" >
+        <h1>inteligencia logico matematico</h1>
+        <canvas id="myChartb1" ></canvas>
+      </div>
+      <br/><br/><br/><br/><br/><br/><br/>
+      <div id="graficos" >
+        <canvas id="myChartb2"></canvas>
+      </div>
+      <!--C-->
+      <div id="graficos" >
+        <h1>inteligencia espacial</h1>
+        <canvas id="myChartc1"></canvas>
+      </div>
+      <br/><br/><br/><br/><br/><br/><br/>
+      <div id="graficos" >
+        <canvas id="myChartc2"></canvas>
+      </div>
+                <!--D-->
+      <div id="graficos" >
+        <h1>inteligencia coporal cinetica</h1>
+        <canvas id="myChartd1"></canvas>
+      </div>
+      <br/><br/><br/><br/><br/><br/><br/>
+      <div id="graficos" >
+        <canvas id="myChartd2"></canvas>
+      </div>
+      <!--E-->
+      <div id="graficos" >
+        <h1>inteligencia musical</h1>
+        <canvas id="myCharte1"></canvas>
+      </div>
+      <br/><br/><br/><br/><br/><br/><br/>
+      <div id="graficos" >
+        <canvas id="myCharte2"></canvas>
+      </div>
+      <!--F-->
+      <div id="graficos" >
+        <h1>inteligencia naturalista</h1>
+        <canvas id="myChartf1"></canvas>
+      </div>
+      <br/><br/><br/><br/><br/><br/><br/>
+      <div id="graficos" >
+        <canvas id="myChartf2"></canvas>
+      </div>
+      <!--G-->
+      <div id="graficos" >
+        <h1>inteligencia interpersonal</h1>
+        <canvas id="myChartg1"></canvas>
+      </div>
+      <br/><br/><br/><br/><br/><br/><br/>
+      <div id="graficos" >
+        <canvas id="myChartg2"></canvas>
+      </div>
+      <!--H-->
+      <div id="graficos">
+        <h1>inteligencia intrapersonal</h1>
+        <canvas id="myCharth1"></canvas>
+      </div>
+      <br/><br/><br/><br/><br/><br/><br/>
+      <div id="graficos" >
+        <canvas id="myCharth2"></canvas>
+      </div>
+    </div>
+    <section class="btn-container ">
+      <a class="btn-ghost round" href="" >Volver a realizar el test</a>
+   </section>
+      <br/><br/>
+    </div>
+</div>
+</body>
+</html>
