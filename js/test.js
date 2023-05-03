@@ -933,7 +933,7 @@ function setGrafico_Barras(_a11,_a22,_intel,_ids){
 			data: [_a11,_a22],
 			backgroundColor: ['#42a5f5', 'violet'],
 			label: 'Inteligencia '+_intel}],
-			labels: ['Psotivo','Negativo']},
+			labels: ['Positivo','Negativo']},
 		options: {responsive: true}
 	});
 	}
